@@ -49,7 +49,7 @@ Button{
   }
 
   .SearchBox .MuiButton-root {
-    width: 90%;
+    width: 50%;
     margin-top: 12px;
     font-size: 1rem;
     padding: 8px 20px;
