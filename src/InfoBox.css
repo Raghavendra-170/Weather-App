@@ -47,3 +47,22 @@
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
 }
 /* ...existing code... */
+
+@media (max-width: 600px) {
+  .InfoBox {
+    padding: 20px 12px;
+    margin: 24px 12px;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mui {
+    width: 90%;
+    min-width: unset;
+    max-width: unset;
+    font-size: 1rem;
+  }
+}

@@ -9,7 +9,8 @@
   </head>
   <body>
     <div>
-      <nav class="navbar">
+      
+      <!-- <nav class="navbar">
         <h1 class="logo">Weather App</h1>
         <div class="navbar-links">
           <a href="/">Home</a>
@@ -18,6 +19,17 @@
           <a href="/weatherapp">Weather App</a>
           <a href="/InfoBox">Info Box</a>
         </div>
+      </nav> -->
+      <nav class="navbar">
+        <h1 class="logo">Weather App</h1>
+          <button class="hamburger" id="hamburger">&#9776; </button> <!-- Hamburger icon -->
+          <div class="navbar-links" id="navLinks">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/weather">Weather</a>
+            <a href="/weatherapp">Weather App</a>
+            <a href="/InfoBox">Info Box</a>
+          </div>
       </nav>
     </div>
     <div id="root"></div>
@@ -33,5 +45,12 @@
         <li><a href="#">Instagram</a></li>
       </ul>
     </div>
+
+  <script>
+    document.getElementById("hamburger").addEventListener("click", function () {
+    document.getElementById("navLinks").classList.toggle("active");
+    });
+  </script>
+
   </body>
 </html>

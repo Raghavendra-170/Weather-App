@@ -16,3 +16,17 @@
     color: #555;
     margin-top: 10px;
 }
+@media (max-width: 600px) {
+  .WeatherApp {
+    padding: 8px;
+  }
+
+  .WeatherApp h1 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .WeatherApp p {
+    font-size: 0.95rem;
+  }
+}

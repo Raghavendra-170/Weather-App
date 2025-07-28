@@ -42,3 +42,16 @@ Button{
     font-weight: 500; 
 }
 
+@media (max-width: 600px) {
+  .SearchBox .textField {
+    width: 90%; /* Full width on small screens */
+    margin-right: 0;
+  }
+
+  .SearchBox .MuiButton-root {
+    width: 90%;
+    margin-top: 12px;
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
