@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 ## 🌐 live  https://weather-app-1-e1mi.onrender.com/
----
+
 # 🌦️ Weather App
 
 A simple and responsive **Weather App** built with **React** and **Material UI**. It allows users to search for a city and view real-time weather details like temperature, conditions, and more.
