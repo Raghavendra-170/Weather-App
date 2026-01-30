@@ -73,7 +73,7 @@ If you're using an API (like OpenWeatherMap), create a .env file in the root fol
 npm run build
 ```
 ## 📁 Folder Structure
-
+```text
 src/
 │
 ├── components/
@@ -87,7 +87,7 @@ src/
 │   ├── App.css
 │   ├── SearchBox.css
 │   ├── WeatherApp.css
-
+```
 ## 🙌 Acknowledgements
 Weather data provided by OpenWeatherMap
 
